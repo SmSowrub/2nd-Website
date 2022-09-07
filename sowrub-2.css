@@ -1,0 +1,336 @@
+
+
+header{
+	background-color: f6f9f9;
+	height: 100px;
+}
+
+.header-Araya img{
+	padding: 30px 5px;
+	text-align: center;
+}
+.header-Araya a{
+	color: #919393;
+	text-decoration: none;
+}
+
+.header-meno ul{
+	display: flex;
+	justify-content: space-between;
+}
+.header-meno ul li{
+	list-style: none;
+	padding: 40px 20px;
+}
+.header-meno ul li a{
+	text-decoration: none;
+	color: #919393;
+	border: 1px solid transparent;
+	padding: 10px 20px;
+	border-radius:10px;
+	transition: 1s;
+}
+
+.all-header a{
+	text-decoration: none;
+}
+
+.all-header a i{
+	position: absolute;
+	top: 35px;
+	right: 50px;
+	font-size: 20px;
+	color: #7f8c8d;
+	display:none ;
+}
+
+.header-meno ul li a:hover{
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	border-color: #919393;
+	transform: scale(1.1);
+}
+
+.section-1 {
+	background-image: url(img/Strict.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.content-1{
+	text-align: center;
+	padding: 220px 0 180px;
+}
+
+.content-1 p{
+	margin-top: 45px;
+	color: #fff;
+	font-size: 16px;
+}
+.content-1 button{
+	font-size: 14px;
+	margin-top: 60px;
+	color: #fff;
+	background-color: transparent;
+	border: 1px solid #15a4fa;
+	padding: 10px 15px;
+	border-radius: 10px;
+	transition: 0.5s;
+
+}
+.content-1 button:hover{
+	background-color: #15a4fa;
+	color: #fff;
+	transform: scale(1.1);
+
+}
+
+.content-1 i{
+	background-color: transparent;
+	font-size: 24px;
+}
+
+
+
+
+
+
+.content-2{
+	margin-top: 80px;
+	text-align: center;
+	width: 1050px;
+}
+.content-2 h1{
+	
+	color: #2d3950;
+	font-size: 40pt;
+}
+.content-2 p{
+	margin-top: 20px;
+	color:  #919393;
+	font-size: 16px;
+}
+
+.location{
+	margin: 170px 0 140px;
+}
+.location-icon{
+	text-align: center;
+}
+.location i{
+	color: #fff;
+	font-size: 30px;
+	border: 1px solid #15a4fa;
+	padding: 10px 7px;
+	text-align: center;
+	background-color: #15a4fa;
+	margin-bottom:10px;
+}
+.location h6{
+	font-size: 18pt;
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.location p{
+	font-size: 12pt;
+	color:  #919393; 
+	text-align: center;
+}
+
+
+
+
+.content-3{
+	text-align: center;
+}
+.content-3 h2{
+	font-size: 32pt;
+	color: black;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.content-3 p{
+	font-size: 16pt;
+	color:  #919393; 
+	text-align: center;
+}
+
+
+.img-Gllary{
+	margin-bottom: 20px;
+}
+
+.img-Gllary-1{
+	position: relative;
+
+}
+
+.icon{
+
+	background:rgba(0,0,0,.6);
+	width:352px;
+	height: 100%;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 20px;
+
+
+}
+
+.search-icon i{
+	font-size: 20px;
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	color: #fff;
+}
+.search-icon i.circle{
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #fff;
+}
+
+
+.dj-photo{
+	width: 800px;
+	position: absolute;
+	top: 1700px;
+	left: 320px;
+	
+
+	display: none;
+	
+}
+.dj-photo img{
+	width: 100%;
+	
+}
+
+.dj-photo i{
+	position: absolute;
+	top: 1750px;
+	left: 600px;
+	color: #fff;
+	font-size: 20px;
+	display: none;
+}
+.dj-photo:hover i{
+	display: block;
+}
+
+
+.responsib-2 img{
+	margin: 20px;
+	width: 100%;
+}
+
+
+
+.section-4 {
+	background-image: linear-gradient(transparent,rgba(0, 0, 0, 3)), url(img/hover.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.content-4 h2{
+	font-size: 32px;
+	text-align: center;
+	padding: 15px 0 0;
+	color: #fff;
+}
+
+.from-box{
+	width: 50%;
+	margin:20px auto;
+	padding:20px 50px;
+	text-align: center;
+}
+#namebox{
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	outline: 0;
+}
+#emailbox{
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	outline: 0;
+}
+ #Addrese{
+ 	width: 100%;
+ 	height: 50px;
+	padding: 10px 5px;
+	border-radius: 10px;
+ }
+#numberbox{
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	outline: 0;
+}
+
+.end{
+	background-color: #34495e;
+	text-align: center;
+	padding: 20px 0;
+	
+}
+.end p{
+	color: #fff;
+}
+.end a{
+	color: #000;
+	font-weight: 700px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+
+.all-header a i{
+	display: block ;
+	
+}
+
+.header-meno{
+	display: none;
+}
+
+
+.content-2{
+	margin-top: 80px;
+	text-align: center;
+	width: 520px;
+}
+
+.location-icon{
+	margin-bottom: 20px;
+}
+.location{
+	margin: 100px 0;
+}
+
+.icon{
+
+	background:rgba(0,0,0,.6);
+	width:100%;
+	height: 100%;
+	
+
+
+}
+
+
+}
